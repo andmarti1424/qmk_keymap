@@ -74,7 +74,7 @@ float dvorak_song[][2] = SONG(DVORAK_SOUND);
 //# ESTOS SON LOS COMBOS
 const uint16_t PROGMEM combo_esc[] = {KC_J, KC_K, COMBO_END};
 //const uint16_t PROGMEM combo_enter[] = {KC_SCLN, KC_ENTER, COMBO_END};
-const uint16_t PROGMEM combo_num[] = {KC_Q, KC_ESC, COMBO_END};
+const uint16_t PROGMEM combo_num[] = {KC_K, KC_L, COMBO_END};
 const uint16_t PROGMEM combo_email[] = {KC_W, KC_A, COMBO_END};
 
 enum combo_events {
